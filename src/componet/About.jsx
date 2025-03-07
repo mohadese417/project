@@ -10,17 +10,7 @@ export default function About() {
                         Explorer
                     </h2>
                 </div>
-                <ul className="flex text-lg gap-4 m-18 -ml-6">
-                    <li>
-                        Home
-                    </li>
-                    <li>
-                        Countries
-                    </li>
-                    <li>
-                        About
-                    </li>
-                </ul>
+              
             </div>
            
                 <h1 className="flex justify-center font-bold text-6xl">

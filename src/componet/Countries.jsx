@@ -1,3 +1,4 @@
+
 export function Countries(){
     return(
         <>
@@ -10,25 +11,23 @@ export function Countries(){
             Explorer
            </h2>
            </div>
-           <ul className="flex text-lg gap-4 m-18 -ml-6">
-            <li>
-                Home
-            </li>
-            <li>
-                Countries
-            </li>
-            <li>
-                About
-            </li>
-           </ul>
+          
            </div>
            <div>
            <h1 className="font-extrabold text-3xl ml-15">
            Countries 
            </h1>
            </div>
-           <div>
-            <input type="text" placeholder="Search by name... " />
+           <div className="flex gap-10">
+            <input className="w-1/2 border border-gray-400 p-3 ml-10 mt-10" type="text" placeholder="Search by name... " />
+            <select className="w-1/2 border border-gray-400 p-3 mr-10 mt-10">
+                <option value="All Regions">All Regions</option>
+                <option value="Africa">Africa</option>
+                <option value="Americas">Americas</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Oceania">Oceania</option>
+            </select>
            </div>
           
 
